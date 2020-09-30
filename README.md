@@ -45,3 +45,17 @@ To run the sample using the Storage Service
 - [Delegating Access with Shared Access Signatures](http://azure.microsoft.com/en-us/documentation/articles/storage-dotnet-shared-access-signature-part-1/)
 - [Storage Emulator](http://msdn.microsoft.com/en-us/library/azure/hh403989.aspx)
 - [Asynchronous Programming with Async and Await](http://msdn.microsoft.com/en-us/library/hh191443.aspx)
+
+
+## Important 
+The Blob service is based on a flat storage scheme, not a hierarchical scheme. However, you may specify a character or string delimiter within a blob name to create a virtual hierarchy. For example, the following list shows valid and unique blob names. Notice that a string can be valid as both a blob name and as a virtual directory name in the same container:
+
+      /a
+
+      /a.txt
+
+      /a/b
+
+      /a/b.txt
+
+You can take advantage of the delimiter character when enumerating blobs.
