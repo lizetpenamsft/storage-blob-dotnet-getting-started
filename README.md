@@ -45,6 +45,7 @@ To run the sample using the Storage Service
 - [Delegating Access with Shared Access Signatures](http://azure.microsoft.com/en-us/documentation/articles/storage-dotnet-shared-access-signature-part-1/)
 - [Storage Emulator](http://msdn.microsoft.com/en-us/library/azure/hh403989.aspx)
 - [Asynchronous Programming with Async and Await](http://msdn.microsoft.com/en-us/library/hh191443.aspx)
+- [Blob Storage Resources](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)
 
 
 ## Important 
@@ -59,3 +60,7 @@ The Blob service is based on a flat storage scheme, not a hierarchical scheme. H
       /a/b.txt
 
 You can take advantage of the delimiter character when enumerating blobs.
+
+
+
+
